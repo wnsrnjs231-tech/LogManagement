@@ -1,0 +1,34 @@
+{
+    "line": "TEST_LINE",
+    "port": 5000,
+    "key": "YOUR_TEST_KEY",
+
+    "log_root": "C:\\LogFile",
+
+    "allowed_ips": [
+        "127.0.0.1"
+    ],
+
+    "logs": [
+        {
+            "id": "APPLICATION",
+            "name": "Application Log",
+            "file": "application.log"
+        },
+        {
+            "id": "SYSTEM",
+            "name": "System Log",
+            "file": "system.log"
+        },
+        {
+            "id": "ERROR",
+            "name": "Error Log",
+            "file": "error.log"
+        },
+        {
+            "id": "ACCESS",
+            "name": "Access Log",
+            "file": "access.log"
+        }
+    ]
+}
