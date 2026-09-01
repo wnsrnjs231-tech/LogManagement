@@ -1,0 +1,10 @@
+{
+    "machines": [
+        {
+            "name": "TEST_LINE",
+            "ip": "192.168.0.100",
+            "port": 5000,
+            "key": "YOUR_TEST_KEY"
+        }
+    ]
+}
